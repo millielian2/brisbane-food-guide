@@ -4,151 +4,102 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A student-made guide to memorable food spots and places around Brisbane.">
-  <title>BRISBANE / A CITY WORTH EXPLORING</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
-
+  <title>Brisbane — A City Worth Exploring</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <header class="site-header">
-    <a class="brand" href="#top">BRISBANE<span>/</span>EXPLORE</a>
+<header>
+  <div class="logo">BRISBANE / EXPLORE</div>
 
-```
-<nav>
-  <a href="#story">THE STORY</a>
-  <a href="#eat">PLACES TO EAT</a>
-  <a href="#visit">PLACES TO VISIT</a>
-</nav>
-```
+  <nav>
+    <a href="#story">THE STORY</a>
+    <a href="#eat">PLACES TO EAT</a>
+    <a href="#visit">PLACES TO VISIT</a>
+  </nav>
+</header>
 
-  </header>
-
-  <main id="top">
-
-```
-<!-- HERO -->
 <section class="hero">
-  <div class="hero-content">
-    <p class="eyebrow">A PERSONAL GUIDE · BRISBANE, QLD</p>
+  <p>BRISBANE, QUEENSLAND</p>
 
-    <h1>
-      A CITY<br>
-      <em>WORTH EXPLORING.</em>
-    </h1>
+  <h1>
+    A CITY<br>
+    <em>WORTH EXPLORING.</em>
+  </h1>
 
-    <p class="hero-copy">
-      Good food, good places, good memories.
-    </p>
+  <p class="subtitle">Good food, good places, good memories.</p>
 
-    <a class="scroll-link" href="#story">
-      SCROLL TO EXPLORE ↓
-    </a>
-  </div>
+<a class="explore-button" href="#story">EXPLORE ↓</a>
 
-  <div class="hero-stamp">
-    BRIS<br>
-    <span>QLD</span>
-  </div>
 </section>
 
+<section class="story" id="story">
+  <p class="label">01 / THE CITY</p>
 
-<!-- STORY -->
-<section class="intro" id="story">
+  <div class="story-grid">
+    <h2>
+      BRISBANE<br>
+      <em>THROUGH MY EYES.</em>
+    </h2>
 
-  <div class="section-kicker">01 / THE CITY</div>
+```
+<div class="story-text">
+  <p class="big-text">
+    Brisbane is a city shaped by its river, neighbourhoods
+    and the people who call it home.
+  </p>
 
-  <div class="intro-grid">
-
-    <div>
-      <h2>
-        BRISBANE<br>
-        <span>THROUGH MY EYES.</span>
-      </h2>
-    </div>
-
-    <div class="intro-text">
-      <p class="lead">
-        Brisbane is a city shaped by its river, its neighbourhoods
-        and the people who call it home.
-      </p>
-
-      <p>
-        This project is a personal collection of places discovered
-        around Brisbane. From restaurants and cafes to parks and
-        iconic city spots, these are places that are memorable,
-        interesting or simply worth stopping for.
-      </p>
-    </div>
+  <p>
+    This website is a personal collection of places around
+    Brisbane that are worth eating at, visiting and remembering.
+    From hidden food spots to beautiful places around the city,
+    these are some of my favourite discoveries.
+  </p>
+</div>
+```
 
   </div>
 </section>
 
-
-<!-- PLACES TO EAT -->
-<section class="collection" id="eat">
-
-  <div class="collection-heading">
+<section class="section" id="eat">
+  <div class="section-heading">
     <div>
-      <div class="section-kicker">02 / THE COLLECTION</div>
-      <h2>
-        PLACES<br>
-        <em>TO EAT.</em>
-      </h2>
+      <p class="label">02 / THE COLLECTION</p>
+      <h2>PLACES<br><em>TO EAT.</em></h2>
     </div>
 
-    <p class="collection-note">
-      A collection of food spots discovered across Brisbane.
-    </p>
+```
+<p>Food spots discovered around Brisbane.</p>
+```
+
   </div>
 
   <div id="restaurant-list"></div>
-
 </section>
 
-
-<!-- PLACES TO VISIT -->
-<section class="collection visit-section" id="visit">
-
-  <div class="collection-heading">
+<section class="section visits" id="visit">
+  <div class="section-heading">
     <div>
-      <div class="section-kicker">03 / THE COLLECTION</div>
-      <h2>
-        PLACES<br>
-        <em>TO VISIT.</em>
-      </h2>
+      <p class="label">03 / THE COLLECTION</p>
+      <h2>PLACES<br><em>TO VISIT.</em></h2>
     </div>
 
-    <p class="collection-note">
-      Places to explore, relax and see something different.
-    </p>
+```
+<p>Places to explore, relax and discover something new.</p>
+```
+
   </div>
 
   <div id="places-list"></div>
-
 </section>
-```
 
-  </main>
+<footer>
+  <h2>BRISBANE</h2>
+  <p>A CITY WORTH EXPLORING.</p>
+</footer>
 
-  <footer>
-    <div>
-      <span class="footer-big">BRISBANE</span>
-      <span class="footer-small">A CITY WORTH EXPLORING.</span>
-    </div>
-
-```
-<p>Student guide · Brisbane, Queensland</p>
-```
-
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
